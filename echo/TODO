@@ -1,0 +1,5 @@
+add s3.bucketname to config.properties
+implement markitondemand historical data
+find historical dividends and splits
+fill out publishing info
+switch to accessors instead of public variables

@@ -1,0 +1,136 @@
+GetQuoteIntent  price of {Ticker}
+GetQuoteIntent  price for {Ticker}
+GetQuoteIntent  price {Ticker}
+GetQuoteIntent  what's the price of {Ticker}
+GetQuoteIntent  what's the price for {Ticker}
+GetQuoteIntent  quote of {Ticker}
+GetQuoteIntent  quote for {Ticker}
+GetQuoteIntent  quote {Ticker}
+GetQuoteIntent  what's the quote of {Ticker}
+GetQuoteIntent  what's the quote for {Ticker}
+GetQuoteIntent  last price of {Ticker}
+GetQuoteIntent  last price for {Ticker}
+GetQuoteIntent  what's the current price of {Ticker}
+GetQuoteIntent  what's the current price for {Ticker}
+GetPeIntent  P.E. {Ticker}
+GetPeIntent  P.E. of {Ticker}
+GetPeIntent  P.E. for {Ticker}
+GetPeIntent  what's the P.E. of {Ticker}
+GetPeIntent  what's the P.E. for {Ticker}
+GetPeIntent  price earnings ratio of {Ticker}
+GetPeIntent  price earnings ratio for {Ticker}
+GetPeIntent  what's the price earnings ratio of {Ticker}
+GetPeIntent  what's the price earnings ratio for {Ticker}
+GetPeIntent  what's the price to earnings ratio of {Ticker}
+GetPeIntent  what's the price to earnings ratio for {Ticker}
+GetPeIntent  P.E. ratio of {Ticker}
+GetPeIntent  P.E. ratio for {Ticker}
+GetPeIntent  what's the price earnings of {Ticker}
+GetPeIntent  what's the price earnings for {Ticker}
+GetPeIntent  price earnings of {Ticker}
+GetAskIntent  what's the ask for {Ticker}
+GetBidIntent  what's the bid for {Ticker}
+GetOpenIntent  opening price for {Ticker}
+GetOpenIntent  what was the opening price for {Ticker}
+GetOpenIntent  Where did {Ticker} open
+GetCloseIntent  closing price for {Ticker}
+GetCloseIntent  what was the closing price for {Ticker}
+GetCloseIntent  where did {Ticker} close
+GetDividendIntent  dividend for {Ticker}
+GetDividendIntent  dividend of {Ticker}
+GetDividendIntent  what was the dividend for {Ticker}
+GetDividendIntent  what was the dividend of {Ticker}
+GetYieldIntent  dividend yield for {Ticker}
+GetYieldIntent  dividend yield of {Ticker}
+GetYieldIntent  what's the dividend yield for {Ticker}
+GetYieldIntent  what's the dividend yield of {Ticker}
+GetTargetIntent  what's the one year target for {Ticker}
+GetDaysRangeIntent  what's the day's range for {Ticker}
+GetDaysRangeIntent  what's the range for {Ticker}
+GetFTWkRangeIntent  what's the fifty two week range for {Ticker}
+GetVolumeIntent  what's the volume for {Ticker}
+GetVolumeIntent  volume for {Ticker}
+GetAvVolumeIntent  what's the average daily volume for {Ticker}
+GetMktCapIntent  what's the market cap for {Ticker}
+GetEpsIntent  what was the E.P.S. for {Ticker}
+GetEpsIntent  what was the Earnings per Share for {Ticker}
+GetEpsEstCrntYrIntent  what's the E.P.S. estimate for {Ticker}
+GetEpsEstCrntYrIntent  what's the Earnings per Share estimate for {Ticker}
+GetEpsEstCrntYrIntent  what's this year's E.P.S. estimate for {Ticker}
+GetEpsEstCrntYrIntent  what's this year's Earings per Share estimate for {Ticker}
+GetEpsEstNextYrIntent  what's next year's E.P.S. estimate for {Ticker}
+GetEpsEstNextYrIntent  what's next year's Earnings per Share estimate for {Ticker}
+GetEpsEstNextYrIntent  what's the E.P.S. estimate for {Ticker} for next year
+GetEpsEstNextYrIntent  what's the Earnings per Share estimate for {Ticker} for next year
+GetEpsEstNextQtrIntent  what's next quarter's E.P.S. estimate for {Ticker}
+GetEpsEstNextQtrIntent  what's next quarter's Earnings per Share estimate for {Ticker}
+GetEpsEstNextQtrIntent  what's the E.P.S. estimate for {Ticker} for next quarter
+GetEpsEstNextQtrIntent  what's the Earnings per Share estimate for {Ticker} for next quarter
+GetMktOverviewIntent  how's the market doing today
+GetMktOverviewIntent  what's the market doing today
+GetMktOverviewIntent  how did the market do today
+GetMktOverviewIntent  how was the market today
+GetMktOverviewIntent  market summary
+GetMktOverviewIntent  market overview
+GetMktOverviewIntent  markets
+GetEarningsIntent  who's releasing earnings today
+GetExDivIntent  who's going ex dividend today
+AddToWatchlistIntent  add {Ticker} to my watchlist
+AddToWatchlistIntent  put {Ticker} in my watchlist
+GetWatchlistIntent  what's in my watchlist
+GetWatchlistIntent  what tickers are in my watchlist
+GetWatchlistIntent  what symbols are in my watchlist
+GetWatchlistIntent  what are my stocks
+GetWatchlistIntent  what are my symbols
+RemoveFromWatchlistIntent  remove {Ticker} from my watchlist
+RemoveFromWatchlistIntent  delete {Ticker} from my watchlist
+RemoveFromWatchlistIntent  remove {Ticker} from watchlist
+RemoveFromWatchlistIntent  delete {Ticker} from watchlist
+GetWatchlistQuotesIntent  what's my watchlist doing
+GetWatchlistQuotesIntent  what's going on in my watchlist
+GetWatchlistQuotesIntent  how's my watchlist doing
+GetWatchlistQuotesIntent  how are my stocks doing
+GetWatchlistMostActiveIntent  what's most active in my watchlist
+GetWatchlistMostActiveIntent  what has the highest volume in my watchlist
+GetWatchlistMostUpIntent  what's most up in my watchlist
+GetWatchlistMostUpIntent  what are my top performing stocks
+GetWatchlistMostUpIntent  what are my best performing stocks
+GetWatchlistMostUpIntent  what's the most up in my watchlist
+GetWatchlistMostUpIntent  what are my most up stocks
+GetWatchlistMostUpIntent  who is my best performing stock
+GetWatchlistMostUpIntent  who is my best performing company
+GetWatchlistMostUpIntent  what is my best performing company
+GetWatchlistMostUpIntent  what is my best performing stock
+GetWatchlistMostDownIntent  what's most down in my watchlist
+GetWatchlistMostDownIntent  what are my worst performing stocks
+ConfirmAddToWatchlistIntent  yes
+ConfirmAddToWatchlistIntent  yea
+ConfirmAddToWatchlistIntent  yep
+ConfirmAddToWatchlistIntent  sure
+ConfirmAddToWatchlistIntent  ok
+DeclineAddToWatchlistIntent  no
+DeclineAddToWatchlistIntent  nope
+WatchOutIntent  what should I watch out for today
+DefineQuoteIntent  define quote
+DefinePeIntent  define P.E.
+DefinePeIntent  define price earnings ratio
+DefineAskIntent  define ask
+DefineBidIntent  define bid
+DefineOpenIntent  define opening price
+DefineOpenIntent  define open
+DefineCloseIntent  define closing price
+DefineCloseIntent  define close
+DefineDividendIntent  define dividend 
+DefineYieldIntent  define dividend yield
+DefineTargetIntent  define one year target
+DefineRangeIntent  define range
+DefineRangeIntent  define fifty two week range
+DefineRangeIntent  define day's range
+DefineVolumeIntent  define volume
+DefineAvVolumeIntent  define average daily volume
+DefineMktCapIntent  define market cap
+DefineMktCapIntent  define market capitalization
+DefineEpsIntent  define E.P.S.
+DefineEpsIntent  define earnings per share
+DefineEpsEstIntent  define E.P.S. estimate
+DefineEpsEstIntent  define earnings per share estimate

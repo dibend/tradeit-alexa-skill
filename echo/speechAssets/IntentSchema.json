@@ -1,0 +1,271 @@
+{
+  "intents": [
+    {
+      "intent": "GetQuoteIntent",
+      "slots": [
+	{
+          "name": "Ticker",
+          "type": "LIST_OF_TICKERS"
+	}
+      ]
+    },
+    {
+      "intent": "GetPeIntent",
+      "slots": [
+        {
+          "name": "Ticker",
+          "type": "LIST_OF_TICKERS"
+        }
+      ]
+    },
+    {
+      "intent": "GetAskIntent",
+      "slots": [
+        {
+          "name": "Ticker",
+          "type": "LIST_OF_TICKERS"
+        }
+      ]
+    },
+    {
+      "intent": "GetBidIntent",
+      "slots": [
+        {
+          "name": "Ticker",
+          "type": "LIST_OF_TICKERS"
+        }
+      ]
+    },
+    {
+      "intent": "GetOpenIntent",
+      "slots": [
+        {
+          "name": "Ticker",
+          "type": "LIST_OF_TICKERS"
+        }
+      ]
+    },
+    {
+      "intent": "GetCloseIntent",
+      "slots": [
+        {
+          "name": "Ticker",
+          "type": "LIST_OF_TICKERS"
+        }
+      ]
+    },
+    {
+      "intent": "GetDividendIntent",
+      "slots": [
+        {
+          "name": "Ticker",
+          "type": "LIST_OF_TICKERS"
+        }
+      ]
+    },
+    {
+      "intent": "GetYieldIntent",
+      "slots": [
+        {
+          "name": "Ticker",
+          "type": "LIST_OF_TICKERS"
+        }
+      ]
+    },
+    {
+      "intent": "GetTargetIntent",
+      "slots": [
+        {
+          "name": "Ticker",
+          "type": "LIST_OF_TICKERS"
+        }
+      ]
+    },
+    {
+      "intent": "GetDaysRangeIntent",
+      "slots": [
+        {
+          "name": "Ticker",
+          "type": "LIST_OF_TICKERS"
+        }
+      ]
+    },
+    {
+      "intent": "GetFTWkRangeIntent",
+      "slots": [
+        {
+          "name": "Ticker",
+          "type": "LIST_OF_TICKERS"
+        }
+      ]
+    },
+    {
+      "intent": "GetVolumeIntent",
+      "slots": [
+        {
+          "name": "Ticker",
+          "type": "LIST_OF_TICKERS"
+        }
+      ]
+    },
+    {
+      "intent": "GetAvVolumeIntent",
+      "slots": [
+        {
+          "name": "Ticker",
+          "type": "LIST_OF_TICKERS"
+        }
+      ]
+    },
+    {
+      "intent": "GetMktCapIntent",
+      "slots": [
+        {
+          "name": "Ticker",
+          "type": "LIST_OF_TICKERS"
+        }
+      ]
+    },
+    {
+      "intent": "GetEpsIntent",
+      "slots": [
+        {
+          "name": "Ticker",
+          "type": "LIST_OF_TICKERS"
+        }
+      ]
+    },
+    {
+      "intent": "GetEpsEstCrntYrIntent",
+      "slots": [
+        {
+          "name": "Ticker",
+          "type": "LIST_OF_TICKERS"
+        }
+      ]
+    },
+    {
+      "intent": "GetEpsEstNextYrIntent",
+      "slots": [
+        {
+          "name": "Ticker",
+          "type": "LIST_OF_TICKERS"
+        }
+      ]
+    },
+    {
+      "intent": "GetEpsEstNextQtrIntent",
+      "slots": [
+        {
+          "name": "Ticker",
+          "type": "LIST_OF_TICKERS"
+        }
+      ]
+    },
+    {
+      "intent": "GetMktOverviewIntent"
+    },
+    {
+      "intent": "GetEarningsIntent"
+    },
+    {
+      "intent": "GetExDivIntent"
+    },
+    {
+      "intent": "AddToWatchlistIntent",
+      "slots": [
+        {
+          "name": "Ticker",
+          "type": "LIST_OF_TICKERS"
+        }
+      ]
+    },
+    {
+      "intent": "GetWatchlistIntent"
+    },
+    {
+      "intent": "RemoveFromWatchlistIntent",
+      "slots": [
+        {
+          "name": "Ticker",
+          "type": "LIST_OF_TICKERS"
+        }
+      ]
+    },
+    {
+      "intent": "GetWatchlistQuotesIntent"
+    },
+    {
+      "intent": "GetWatchlistMostActiveIntent"
+    },
+    {
+      "intent": "GetWatchlistMostUpIntent"
+    },
+    {
+      "intent": "GetWatchlistMostDownIntent"
+    },
+    {
+      "intent": "ConfirmAddToWatchlistIntent"
+    },
+    {
+      "intent": "DeclineAddToWatchlistIntent"
+    },
+    {
+      "intent": "WatchOutIntent"
+    },
+    {
+      "intent": "DefineQuoteIntent"
+    },
+    {
+      "intent": "DefinePeIntent"
+    },
+    {
+      "intent": "DefineAskIntent"
+    },
+    {
+      "intent": "DefineBidIntent"
+    },
+    {
+      "intent": "DefineOpenIntent"
+    },
+    {
+      "intent": "DefineCloseIntent"
+    },
+    {
+      "intent": "DefineDividendIntent"
+    },
+    {
+      "intent": "DefineYieldIntent"
+    },
+    {
+      "intent": "DefineTargetIntent"
+    },
+    {
+      "intent": "DefineRangeIntent"
+    },
+    {
+      "intent": "DefineVolumeIntent"
+    },
+    {
+      "intent": "DefineAvVolumeIntent"
+    },
+    {
+      "intent": "DefineMktCapIntent"
+    },
+    {
+      "intent": "DefineEpsIntent"
+    },
+    {
+      "intent": "DefineEpsEstIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
